@@ -1,0 +1,9 @@
+m=int(input("Enter m value:"))
+n=int(input("Enter n value:"))
+sum=0
+if m<=n:
+  for i in range(m,n+1):
+    sum=sum+(i**3)
+  print(sum)
+else:
+  print("0")
